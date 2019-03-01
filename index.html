@@ -1,0 +1,633 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Activa Coin (ACV)</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/activacoin.png">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+<style>
+* {
+    box-sizing: border-box;
+}
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+</style>
+
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+
+<style>
+.greencolor {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bluecolor {background-color: #008CBA;} /* Blue */
+.redcolor {background-color: #f44336;} /* Red */ 
+.graycolor {background-color: #e7e7e7; color: black;} /* Gray */ 
+.blackcolor {background-color: #555555;} /* Black */
+.goldcolor {background-color: #FFD700;} /* Gold */
+</style>
+</head>
+
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<h1><strong>Activa Coin</strong></h1>
+					<img src="images/activacoin.png" width="250" height="250">
+					<h1><strong>ACV</strong></h1>
+					<p>
+					ACV aims to create a lending platform built on trust and reputation with the Bitcoin ecosystem.<br />
+					Security is the first priority within our decentralized platform.<br />
+					We utilize the popular bitcoin blockchain technology allowing other developers to join seamlessly and without worry.<br />
+					ACV contributes to redefining the core trends of cryptocurrency in the present and future to generate positive changes inthe way that crypto is viewed & admitted in the next 10 years.
+					</p>
+					<ul class="actions">
+						<center>
+						<li><a href="#Spesification" class="button scrolly">Spesification</a></li>
+						<li><a href="#ICO" class="button scrolly">Initial Coin Offering</a></li>
+						<li><a href="#Roadmap" class="button scrolly">Roadmap</a></li>
+						<li><a href="#Others" class="button scrolly">Others</a></li>
+						<li><a target="_blank" href="//blockchain.activacoin.site" class="button scrolly">Blockchain Explorer</a></li>
+						</center>
+					</ul>
+					<ul class="actions">
+						<center>
+						<li><button target="_blank" href="https://crex24.com/id/exchange/ACV-BTC?refid=1teydhnldl6xe376ivnr" class="goldcolor">Crex24</button></li>
+						<li><button target="_blank" href="#" class="goldcolor">Coming Soon</button></li>
+						<li><button target="_blank" href="#" class="goldcolor">Coming Soon</button></li>
+						</center>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Spesification -->
+			<section id="Spesification">
+<h1 style="text-align:center">Spesification</h1>
+<p style="text-align:center">
+Coin Name: Activa Coin<br />
+Ticker: ACV<br />
+Type: PoW (Proof of Work)<br />
+Algorithm : Scrypt<br />
+Difficulty Target : Every 2.5 minutes<br />
+Confirmation Transaction : 7 Blocks<br />
+Coinbase Maturity : 50 Blocks<br />
+Total Supply: 25,000,000 ACV<br />
+Decimal: 8<br />
+ICO Supply: 7,000,000 ACV<br />
+Bounty Supply: 1,000,000 ACV<br />
+Mining Supply: 17,000,000 ACV<br />
+</p>
+			</section>
+
+		<!-- Initial Coin Offering -->
+			<section id="ICO" class="main style1">
+<h1 style="text-align:center">Initial Coin Offering (ICO)</h1>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Round 1</li>
+    <li class="grey">0.16 USD/ACV</li>
+    <li>2,000,000 ACV</li>
+    <li>Starts on Jan 04, 2018</li>
+    <li>Completed on Jan 10, 2018</li>
+    <li class="grey"><a href="#" class="button">Done</a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Round 2</li>
+    <li class="grey">0.2 USD/ACV</li>
+    <li>2,000,000 ACV</li>
+    <li>Starts on Jan 11, 2018</li>
+    <li>Completed on Jan 17, 2018</li>
+    <li class="grey"><a href="#" class="button">Done</a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Round 3</li>
+    <li class="grey">0.3 USD/ACV</li>
+    <li>1,250,000 ACV</li>
+    <li>Starts on Jan 18, 2018</li>
+    <li>Completed on Jan 24, 2018</li>
+    <li class="grey"><a href="#" class="button">Done</a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Round 4</li>
+    <li class="grey">0.4 USD/ACV</li>
+    <li>1,000,000 ACV</li>
+    <li>Starts on Jan 25, 2018</li>
+    <li>Completed on Feb 01, 2018</li>
+    <li class="grey"><a href="#" class="button">Done</a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Round 5</li>
+    <li class="grey">0.5 USD/ACV</li>
+    <li>750,000 ACV</li>
+    <li>Starts on Feb 02, 2018</li>
+    <li>Completed on Feb 06, 2018</li>
+    <li class="grey"><a href="#" class="button">Done</a></li>
+  </ul>
+</div>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Round 5</li>
+    <li class="grey">0.5 USD/ACV</li>
+    <li>750,000 ACV</li>
+    <li>Starts on Feb 02, 2018</li>
+    <li>Completed on Feb 06, 2018</li>
+    <li class="grey"><a href="#" class="button">Done</a></li>
+  </ul>
+</div>
+<ul class="actions">
+<center>
+<li><button target="_blank" href="https://crex24.com/id/exchange/ACV-BTC" class="goldcolor">Crex24</button></li>
+<li><button target="_blank" href="#" class="goldcolor">Coming Soon</button></li>
+<li><button target="_blank" href="#" class="goldcolor">Coming Soon</button></li>
+</center>
+</ul>
+			</section>
+
+		<!-- Roadmap -->
+			<section id="Roadmap">
+<h1 style="text-align:center">Roadmap</h1>
+<div w3-include-html="roadmap.html"></div> 
+
+<script>
+includeHTML();
+</script>
+			</section>
+
+		<!-- Others -->
+			<section id="Others" class="main style1">
+				<div class="container">
+				<h1 style="text-align:center">Others</h1>
+					<div class="columns">
+					  <ul class="price">
+					    <li class="header">Link</li>
+						  <li><a target="_blank" href="https://github.com/activacoin-official">GitHub</a></li>
+						  <li><a target="_blank" href="https://github.com/activacoin-official/activacoin/releases">Wallet Releases</a></li>
+						  <li><a target="_blank" href="http://blockchain.activacoin.site/">Blockchain Explorer</a></li>
+						  <li><a target="_blank" href="#">Coming Soon</a></li>
+						  <li><a target="_blank" href="#">Coming Soon</a></li>
+					  </ul>
+					</div>
+					<div class="columns">
+					  <ul class="price">
+					    <li class="header">Press</li>
+						  <li><a target="_blank" href="https://bitcointalk.org/index.php?topic=4480774">BitcoinTalk (English)</a></li>
+						  <li><a target="_blank" href="https://bitcointalk.org/index.php?topic=4480808">BitcoinTalk (Indonesian)</a></li>
+						  <li><a target="_blank" href="#">Coming Soon</a></li>
+						  <li><a target="_blank" href="#">Coming Soon</a></li>
+						  <li><a target="_blank" href="#">Coming Soon</a></li>
+					  </ul>
+					</div>
+					<div class="columns">
+					  <ul class="price">
+					    <li class="header">Exchange</li>
+						  <li><a target="_blank" href="https://crex24.com/id/exchange/ACV-BTC?refid=1teydhnldl6xe376ivnr">Crex24</a></li>
+						  <li><a target="_blank" href="#">Coming Soon</a></li>
+						  <li><a target="_blank" href="#">Coming Soon</a></li>
+						  <li><a target="_blank" href="#">Coming Soon</a></li>
+						  <li><a target="_blank" href="#">Coming Soon</a></li>
+					  </ul>
+					</div>
+				</div>
+				<ul class="actions">
+					<center>
+					<li><button target="_blank" href="https://crex24.com/id/exchange/ACV-BTC?refid=1teydhnldl6xe376ivnr" class="goldcolor">Crex24</button></li>
+					<li><button target="_blank" href="#" class="goldcolor">Coming Soon</button></li>
+					<li><button target="_blank" href="#" class="goldcolor">Coming Soon</button></li>
+					</center>
+				</ul>
+			</section>
+
+		<!-- Five -->
+		<!--
+			<section id="five" class="main style1">
+				<div class="container">
+					<header class="major special">
+						<h2>Elements</h2>
+					</header>
+					<section>
+						<h4>Text</h4>
+						<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+						This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+						This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+						<hr />
+						<header>
+							<h4>Heading with a Subtitle</h4>
+							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+						</header>
+						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+						<header>
+							<h5>Heading with a Subtitle</h5>
+							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+						</header>
+						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+						<hr />
+						<h2>Heading Level 2</h2>
+						<h3>Heading Level 3</h3>
+						<h4>Heading Level 4</h4>
+						<h5>Heading Level 5</h5>
+						<h6>Heading Level 6</h6>
+						<hr />
+						<h5>Blockquote</h5>
+						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+						<h5>Preformatted</h5>
+						<pre><code>i = 0;
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+					</section>
+					<section>
+2						<h4>Lists</h4>
+						<div class="row">
+							<div class="6u 12u$(medium)">
+								<h5>Unordered</h5>
+								<ul>
+									<li>Dolor pulvinar etiam.</li>
+									<li>Sagittis adipiscing.</li>
+									<li>Felis enim feugiat.</li>
+								</ul>
+								<h5>Alternate</h5>
+								<ul class="alt">
+									<li>Dolor pulvinar etiam.</li>
+									<li>Sagittis adipiscing.</li>
+									<li>Felis enim feugiat.</li>
+								</ul>
+							</div>
+							<div class="6u$ 12u$(medium)">
+								<h5>Ordered</h5>
+								<ol>
+									<li>Dolor pulvinar etiam.</li>
+									<li>Etiam vel felis viverra.</li>
+									<li>Felis enim feugiat.</li>
+									<li>Dolor pulvinar etiam.</li>
+									<li>Etiam vel felis lorem.</li>
+									<li>Felis enim et feugiat.</li>
+								</ol>
+								<h5>Icons</h5>
+								<ul class="icons">
+									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<h5>Actions</h5>
+						<div class="row">
+							<div class="6u 12u$(medium)">
+								<ul class="actions">
+									<li><a href="#" class="button special">Default</a></li>
+									<li><a href="#" class="button">Default</a></li>
+								</ul>
+								<ul class="actions small">
+									<li><a href="#" class="button special small">Small</a></li>
+									<li><a href="#" class="button small">Small</a></li>
+								</ul>
+								<ul class="actions vertical">
+									<li><a href="#" class="button special">Default</a></li>
+									<li><a href="#" class="button">Default</a></li>
+								</ul>
+								<ul class="actions vertical small">
+									<li><a href="#" class="button special small">Small</a></li>
+									<li><a href="#" class="button small">Small</a></li>
+								</ul>
+							</div>
+							<div class="6u 12u$(medium)">
+								<ul class="actions vertical">
+									<li><a href="#" class="button special fit">Default</a></li>
+									<li><a href="#" class="button fit">Default</a></li>
+								</ul>
+								<ul class="actions vertical small">
+									<li><a href="#" class="button special small fit">Small</a></li>
+									<li><a href="#" class="button small fit">Small</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h4>Table</h4>
+						<h5>Default</h5>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Item One</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Two</td>
+										<td>Vis ac commodo adipiscing arcu aliquet.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Three</td>
+										<td> Morbi faucibus arcu accumsan lorem.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Four</td>
+										<td>Vitae integer tempus condimentum.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Five</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2"></td>
+										<td>100.00</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+						<h5>Alternate</h5>
+						<div class="table-wrapper">
+							<table class="alt">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Description</th>
+										<th>Price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Item One</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Two</td>
+										<td>Vis ac commodo adipiscing arcu aliquet.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Three</td>
+										<td> Morbi faucibus arcu accumsan lorem.</td>
+										<td>29.99</td>
+									</tr>
+									<tr>
+										<td>Item Four</td>
+										<td>Vitae integer tempus condimentum.</td>
+										<td>19.99</td>
+									</tr>
+									<tr>
+										<td>Item Five</td>
+										<td>Ante turpis integer aliquet porttitor.</td>
+										<td>29.99</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2"></td>
+										<td>100.00</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+					</section>
+					<section>
+						<h4>Buttons</h4>
+						<ul class="actions">
+							<li><a href="#" class="button special">Special</a></li>
+							<li><a href="#" class="button">Default</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#" class="button big">Big</a></li>
+							<li><a href="#" class="button">Default</a></li>
+							<li><a href="#" class="button small">Small</a></li>
+						</ul>
+						<ul class="actions fit">
+							<li><a href="#" class="button fit">Fit</a></li>
+							<li><a href="#" class="button special fit">Fit</a></li>
+							<li><a href="#" class="button fit">Fit</a></li>
+						</ul>
+						<ul class="actions fit small">
+							<li><a href="#" class="button special fit small">Fit + Small</a></li>
+							<li><a href="#" class="button fit small">Fit + Small</a></li>
+							<li><a href="#" class="button special fit small">Fit + Small</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#" class="button special icon fa-download">Icon</a></li>
+							<li><a href="#" class="button icon fa-download">Icon</a></li>
+						</ul>
+						<ul class="actions">
+							<li><span class="button special disabled">Disabled</span></li>
+							<li><span class="button disabled">Disabled</span></li>
+						</ul>
+					</section>
+					<section>
+						<h4>Form</h4>
+						<form method="post" action="#">
+							<div class="row uniform 50%">
+								<div class="6u 12u$(xsmall)">
+									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+								</div>
+								<div class="6u$ 12u$(xsmall)">
+									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+								</div>
+								<div class="12u$">
+									<div class="select-wrapper">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Manufacturing</option>
+											<option value="1">Shipping</option>
+											<option value="1">Administration</option>
+											<option value="1">Human Resources</option>
+										</select>
+									</div>
+								</div>
+								<div class="4u 12u$(small)">
+									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+									<label for="demo-priority-low">Low</label>
+								</div>
+								<div class="4u 12u$(small)">
+									<input type="radio" id="demo-priority-normal" name="demo-priority">
+									<label for="demo-priority-normal">Normal</label>
+								</div>
+								<div class="4u$ 12u$(small)">
+									<input type="radio" id="demo-priority-high" name="demo-priority">
+									<label for="demo-priority-high">High</label>
+								</div>
+								<div class="6u 12u$(small)">
+									<input type="checkbox" id="demo-copy" name="demo-copy">
+									<label for="demo-copy">Email me a copy</label>
+								</div>
+								<div class="6u$ 12u$(small)">
+									<input type="checkbox" id="demo-human" name="demo-human" checked>
+									<label for="demo-human">Not a robot</label>
+								</div>
+								<div class="12u$">
+									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+								<div class="12u$">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</section>
+					<section>
+						<h4>Image</h4>
+						<h5>Fit</h5>
+						<div class="box alt">
+							<div class="row uniform 50%">
+								<div class="12u"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+							</div>
+						</div>
+						<h5>Left &amp; Right</h5>
+						<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+					</section>
+				</div>
+			</section>
+		-->
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a target="_blank" href="//twitter.com/ActivaCoindotCo" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a target="_blank" href="//fb.com/activacoin.info" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a target="_blank" href="//github.com/activacoin-official" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a target="_blank" href="#mailto:" class="icon alt fa-envelope"><span class="label">Email</span></a></li>					<li><a target="_blank" href="//t.me/daeplatform" class="icon alt fa-telegram"><span class="label">Telegram Channel</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; 2017-2019 Activa Coin, All Rights Reserved.</li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
